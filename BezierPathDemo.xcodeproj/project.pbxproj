@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B41BA50B1D770C9C007C8513 /* ArcHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41BA50A1D770C9C007C8513 /* ArcHeaderViewController.m */; };
+		B41BA50D1D771119007C8513 /* Snip20160831.png in Resources */ = {isa = PBXBuildFile; fileRef = B41BA50C1D771119007C8513 /* Snip20160831.png */; };
+		B41BA5101D771F92007C8513 /* UIView+QuadCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = B41BA50F1D771F92007C8513 /* UIView+QuadCurve.m */; };
 		B43E71151CFAC76F00143FC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B43E71141CFAC76F00143FC9 /* main.m */; };
 		B43E71181CFAC76F00143FC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B43E71171CFAC76F00143FC9 /* AppDelegate.m */; };
 		B43E711B1CFAC76F00143FC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43E711A1CFAC76F00143FC9 /* ViewController.m */; };
@@ -18,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B41BA5091D770C9C007C8513 /* ArcHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcHeaderViewController.h; sourceTree = "<group>"; };
+		B41BA50A1D770C9C007C8513 /* ArcHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcHeaderViewController.m; sourceTree = "<group>"; };
+		B41BA50C1D771119007C8513 /* Snip20160831.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20160831.png; sourceTree = "<group>"; };
+		B41BA50E1D771F92007C8513 /* UIView+QuadCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+QuadCurve.h"; sourceTree = "<group>"; };
+		B41BA50F1D771F92007C8513 /* UIView+QuadCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+QuadCurve.m"; sourceTree = "<group>"; };
 		B43E71101CFAC76F00143FC9 /* BezierPathDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierPathDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43E71141CFAC76F00143FC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B43E71161CFAC76F00143FC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,12 +72,17 @@
 			isa = PBXGroup;
 			children = (
 				B43E712D1CFAD4D900143FC9 /* 666.jpeg */,
+				B41BA50C1D771119007C8513 /* Snip20160831.png */,
 				B43E71161CFAC76F00143FC9 /* AppDelegate.h */,
 				B43E71171CFAC76F00143FC9 /* AppDelegate.m */,
 				B43E71191CFAC76F00143FC9 /* ViewController.h */,
 				B43E711A1CFAC76F00143FC9 /* ViewController.m */,
 				B43E712A1CFACBC000143FC9 /* HexagonImageView.h */,
 				B43E712B1CFACBC000143FC9 /* HexagonImageView.m */,
+				B41BA5091D770C9C007C8513 /* ArcHeaderViewController.h */,
+				B41BA50A1D770C9C007C8513 /* ArcHeaderViewController.m */,
+				B41BA50E1D771F92007C8513 /* UIView+QuadCurve.h */,
+				B41BA50F1D771F92007C8513 /* UIView+QuadCurve.m */,
 				B43E711C1CFAC76F00143FC9 /* Main.storyboard */,
 				B43E711F1CFAC76F00143FC9 /* Assets.xcassets */,
 				B43E71211CFAC76F00143FC9 /* LaunchScreen.storyboard */,
@@ -149,6 +162,7 @@
 				B43E712E1CFAD4D900143FC9 /* 666.jpeg in Resources */,
 				B43E71201CFAC76F00143FC9 /* Assets.xcassets in Resources */,
 				B43E711E1CFAC76F00143FC9 /* Main.storyboard in Resources */,
+				B41BA50D1D771119007C8513 /* Snip20160831.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,10 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41BA50B1D770C9C007C8513 /* ArcHeaderViewController.m in Sources */,
 				B43E711B1CFAC76F00143FC9 /* ViewController.m in Sources */,
 				B43E712C1CFACBC000143FC9 /* HexagonImageView.m in Sources */,
 				B43E71181CFAC76F00143FC9 /* AppDelegate.m in Sources */,
 				B43E71151CFAC76F00143FC9 /* main.m in Sources */,
+				B41BA5101D771F92007C8513 /* UIView+QuadCurve.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BezierPathDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xql.BezierPathDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BezierPathDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xql.BezierPathDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,6 +329,7 @@
 				B43E71291CFAC76F00143FC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
